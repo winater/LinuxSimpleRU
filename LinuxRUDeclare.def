@@ -1,0 +1,15 @@
+	#define  ParameterLen		0x10
+
+	long InitCommand();
+	long DealUserCmd(int Argc_deal,char *Argv_deal[]);
+	long DetectAndDealCommand(char UserCMD[]);
+	long StringCopy(char DST[],char SRC[]);
+	long CheckStringLength(char STR[]);
+	long DealCommand(long CommandID);
+	long DealParameter(char ParameterBuffer[],unsigned long ParameterValue[ParameterLen]);
+	long GetUserInputCommand();
+	long HelpCommandID(long CommandID);
+	long SendCommand(char SendCMD[]);
+	long Help();
+	long Exit();
+

@@ -1,0 +1,10 @@
+        #include	"PCI.def"	
+        #include	"PCI.c"
+	#include	"BPCI.c"
+	#include	"WPCI.c"
+	#include	"DPCI.c"
+	#include	"PCIDump.c"
+	#include	"LSTPCI.c"
+	#include	"ChkClassCode.c"
+	#include	"SVIDSSID.c"
+

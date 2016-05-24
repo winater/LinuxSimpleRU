@@ -1,0 +1,19 @@
+<component>
+	name 		= "Public"
+	category 	= ModulePart
+	RefName 	= "Public"
+	LocalRoot 	= "Public"
+
+[properties]
+
+[files]
+"Public.Link"
+"Public.def"
+"PublicDeclare.def"
+"Public.dat"
+"Public.c"
+"String.c"
+"Change.c"
+[parts]
+
+<endComponent>

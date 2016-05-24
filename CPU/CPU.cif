@@ -1,0 +1,17 @@
+<component>
+	name 		= "CpuCommand"
+	category 	= ModulePart
+	RefName 	= "CPU"
+	LocalRoot 	= "CPU"
+
+[properties]
+
+[files]
+"CPU.Link"
+"CPU.def"
+"CPU.c"
+"CPUID.c"
+"MSR.c"
+[parts]
+
+<endComponent>

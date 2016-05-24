@@ -1,0 +1,42 @@
+	
+	char  ByteReadPCI(unsigned long Bus,unsigned long Dev,unsigned long Fun,unsigned long Reg);
+	unsigned short WordReadPCI(unsigned long Bus,unsigned long Dev,unsigned long Fun,unsigned long Reg);
+	unsigned long DWordReadPCI(unsigned long Bus,unsigned long Dev,unsigned long Fun,unsigned long Reg);
+	unsigned short ByteWriteReadPCI(unsigned long Bus,unsigned long Dev,unsigned long Fun,unsigned long Reg,unsigned short PCI_ByteData);
+	unsigned short WordWriteReadPCI(unsigned long Bus,unsigned long Dev,unsigned long Fun,unsigned long Reg,unsigned short PCI_WordData);
+	unsigned long DWordWriteReadPCI(unsigned long Bus,unsigned long Dev,unsigned long Fun,unsigned long Reg,unsigned long PCI_DWordData);
+	long PCIDump_Fun(unsigned long Bus,unsigned long Dev,unsigned long Fun,unsigned long Reg,unsigned long Length);
+	unsigned short CheckPciDeviceIfOrNotExist(unsigned long Bus,unsigned long Dev,unsigned long Fun);
+	long LSTPCIFun(unsigned long Bus,unsigned long Dev,unsigned long Fun);
+
+	//Class Code
+	unsigned int CheckPCIDeviceClassCode(long Bus,long Dev,long Fun);  //,FILE *fp);
+	unsigned int ReservedBaseClassCode();
+	unsigned int ReservedClassCode();	
+	unsigned int CheckBaseCode00(unsigned int SubClassCode,unsigned int ClassCodeInterface);  //,FILE *ClsssCodeFP);
+	unsigned int CheckBaseCode01(unsigned int SubClassCode,unsigned int ClassCodeInterface);  //,FILE *ClsssCodeFP);
+	unsigned int CheckBaseCode02(unsigned int SubClassCode,unsigned int ClassCodeInterface);  //,FILE *ClsssCodeFP);
+	unsigned int CheckBaseCode03(unsigned int SubClassCode,unsigned int ClassCodeInterface);  //,FILE *ClsssCodeFP);
+	unsigned int CheckBaseCode04(unsigned int SubClassCode,unsigned int ClassCodeInterface);  //,FILE *ClsssCodeFP);
+	unsigned int CheckBaseCode05(unsigned int SubClassCode,unsigned int ClassCodeInterface);  //,FILE *ClsssCodeFP);
+	unsigned int CheckBaseCode06(unsigned int SubClassCode,unsigned int ClassCodeInterface);  //,FILE *ClsssCodeFP);
+	unsigned int CheckBaseCode07(unsigned int SubClassCode,unsigned int ClassCodeInterface);  //,FILE *ClsssCodeFP);
+	unsigned int CheckBaseCode08(unsigned int SubClassCode,unsigned int ClassCodeInterface);  //,FILE *ClsssCodeFP);
+	unsigned int CheckBaseCode09(unsigned int SubClassCode,unsigned int ClassCodeInterface);  //,FILE *ClsssCodeFP);
+	unsigned int CheckBaseCode0A(unsigned int SubClassCode,unsigned int ClassCodeInterface);  //,FILE *ClsssCodeFP);
+	unsigned int CheckBaseCode0B(unsigned int SubClassCode,unsigned int ClassCodeInterface);  //,FILE *ClsssCodeFP);
+	unsigned int CheckBaseCode0C(unsigned int SubClassCode,unsigned int ClassCodeInterface);  //,FILE *ClsssCodeFP);
+	unsigned int CheckBaseCode0D(unsigned int SubClassCode,unsigned int ClassCodeInterface);  //,FILE *ClsssCodeFP);
+	unsigned int CheckBaseCode0E(unsigned int SubClassCode,unsigned int ClassCodeInterface);  //,FILE *ClsssCodeFP);
+	unsigned int CheckBaseCode0F(unsigned int SubClassCode,unsigned int ClassCodeInterface);  //,FILE *ClsssCodeFP);
+	unsigned int CheckBaseCode10(unsigned int SubClassCode,unsigned int ClassCodeInterface);  //,FILE *ClsssCodeFP);
+	unsigned int CheckBaseCode11(unsigned int SubClassCode,unsigned int ClassCodeInterface);  //,FILE *ClsssCodeFP);
+	//SVIDSSID
+	long	DumpAllDeviceSvidSid();
+	unsigned int	CheckPciDeviceIfOrNotMultiFunction(long Bus_Mul,long Dev_Mul);
+	unsigned int	DumpDeviceSvidSsid	(long Bus_dump,long Dev_dump,long Fun_dump);
+	unsigned	int		CheckCapabiliteStatus(long Bus_CP,long Dev_CP,long Fun_CP);
+	unsigned int		DumpBridgeDevSvidSid(long Bus_Bri,long Dev_Bri,long Fun_Bri);
+	unsigned int		DumpGeneralDeviceSvidSid(long Bus_Gen,long Dev_Gen,long Fun_Gen );
+
+

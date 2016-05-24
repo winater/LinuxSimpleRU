@@ -1,0 +1,12 @@
+<component>
+	name = "Main"
+	category = ModulePart
+	LocalRoot = "LinuxRU\"
+	RefName = "LinuxRU"
+[files]
+"LinuxRU.Link"	
+"LinuxRU.c"
+"LinuxRU.mak"		
+"LinuxRU.veb"	
+[parts]
+<endComponent>

@@ -1,0 +1,20 @@
+<component>
+	name 		= "MainSubFun"
+	category 	= eModule
+	RefName 	= "MainSubFun"
+	LocalRoot 	= "MainSubFun"
+
+[properties]
+
+[files]
+"Command.def"
+"Command.dat"
+"InitCommand.c"
+"DetectCommand.c"
+"DealCommand.c"
+"DealParameter.c"
+"Help.c"
+"Exit.c"
+[parts]
+
+<endComponent>

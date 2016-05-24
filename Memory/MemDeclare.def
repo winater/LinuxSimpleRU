@@ -1,0 +1,3 @@
+	
+	long InitCommand();
+	long StringCopy(char DST[],char SRC[]);

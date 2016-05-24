@@ -1,0 +1,20 @@
+<component>
+	name 		= "MemoryCommand"
+	category 	= ModulePart
+	RefName 	= "Memory"
+	LocalRoot 	= "Memory"
+
+[properties]
+
+[files]
+"Memory.Link"
+"Memory.def"
+"MemDeclare.def"
+"Memory.c"
+"Bmem.c"
+"Wmem.c"
+"Dmem.c"
+"MemDump.c"
+[parts]
+
+<endComponent>

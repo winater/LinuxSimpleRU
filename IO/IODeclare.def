@@ -1,0 +1,16 @@
+
+	//IO Byte Access
+	int ByteReadPort(int IOAddress);
+	int ByteWritePort(int IOAddress,int Port_ByteData);
+	int ByteWriteReadPort(int IOAddress,int Port_ByteData);
+	int BPort();
+	//IO Word Access
+	unsigned short WordReadPort(unsigned int IOAddress);
+	unsigned short WordWritePort(int IOAddress,unsigned short Port_WordData);
+	unsigned short WordWriteReadPort(int IOAddress,unsigned short Port_WordData);
+	int WPort();
+	//IO DWord Access
+	unsigned long DWordWriteReadPort(int IOAddress,unsigned long Port_DWordData);
+	unsigned short WordWritePort(int IOAddress,unsigned short Port_WordData);
+	unsigned long DWordReadPort(unsigned int IOAddress);
+	unsigned long DPort();

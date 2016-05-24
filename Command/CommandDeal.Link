@@ -1,0 +1,6 @@
+		#include "InitCommand.c"
+		#include "DetectCommand.c"
+		#include "DealCommand.c"
+		#include "DealParameter.c"
+		#include "Help.c"
+		#include "Exit.c"

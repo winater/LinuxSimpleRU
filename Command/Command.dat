@@ -1,0 +1,11 @@
+struct CommandStruc
+{
+	char	        CommandSignature[CommandSignatureLen];
+	long	        CommandID;
+	char	        ParameterBuffer[ParameterBufferLen];
+	unsigned long	ParameterCount;
+	unsigned long	ParameterValue[ParameterLen];
+	long	        InitFlag;	             //NULL(0) = Do not display this CMD.
+}CommandArray[CmdStrucArrayCount];
+
+long 	ExitFlag=0;	//ExitCommand

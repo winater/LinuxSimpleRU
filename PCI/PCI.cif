@@ -1,0 +1,23 @@
+<component>
+	name 		= "PCICommand"
+	category 	= ModulePart
+	RefName 	= "PCI"
+	LocalRoot 	= "PCI"
+
+[properties]
+
+[files]
+"PCI.Link"
+"PCI.def"
+"PCI.dat"
+"PCI.c"
+"BPCI.c"
+"WPCI.c"
+"DPCI.c"
+"PCIDump.c"
+"LSTPCI.c"
+"ChkClassCode.c"
+"SVIDSSID.c"
+[parts]
+
+<endComponent>

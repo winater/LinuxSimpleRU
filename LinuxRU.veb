@@ -1,0 +1,14 @@
+[project]
+	version = 1
+	Build = "nmake -f core\core.mak backup"
+	BuildAll = "builda 345"
+	BuildDir = "Build"
+
+[files]
+"LinuxRU.cif"= Private
+"Public\Public.cif"= Private
+"Command\CommandFile.cif"= Private
+"IO\IO.cif"= Private
+"Memory\Memory.cif"= Private
+"PCI\PCI.cif"= Private
+"CPU\CPU.cif"= Private

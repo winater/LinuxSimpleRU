@@ -1,0 +1,35 @@
+//_________________LruCmdmain___________________________
+
+	#define  CmdStrucArrayCount	50
+	#define  CommandSignatureLen	0x10
+	#define  ParameterBufferLen	0x50
+	#define  ParameterLen		0x10
+
+	
+	#define Help_CmdID		00
+	#define Exit_CmdID		01
+//PCI_Command_ID
+	#define BPCI_CmdID		10
+	#define WPCI_CmdID		11
+	#define DPCI_CmdID		12
+	#define PCIDUMP_CmdID		13
+	#define LSTPCI_CmdID		14
+	#define SVIDSSID_CmdID		15
+
+//IO_Command_ID
+	#define Port_CmdID		20
+	#define BPort_CmdID		21
+	#define WPort_CmdID		22
+	#define DPort_CmdID		23
+
+//Memory_Command_ID
+	#define Byte_Mem_CmdID		30
+	#define Word_Mem_CmdID		31
+	#define Dword_Mem_CmdID		32
+	#define MemDump_CmdID		33
+
+//CPU/MSR_Command_ID
+	#define CPUID_CmdID		40
+	#define MSR_CmdID		41
+
+

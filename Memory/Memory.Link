@@ -1,0 +1,7 @@
+	#include	"Memory.c"
+	#include	"Bmem.c"
+	#include	"Wmem.c"
+	#include	"Dmem.c"
+	#include	"MemDump.c"
+
+

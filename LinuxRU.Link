@@ -1,0 +1,12 @@
+//__________________Include_____________________________
+        #include        "LinuxRUDeclare.def"
+        #include        "IO/IODeclare.def"
+        #include	"Command/Command.Link"
+	#include	"Public/Public.Link"
+	#include	"PCI/PCI.Link"
+	#include	"IO/IO.Link"
+	#include	"Memory/Memory.Link"
+	#include	"CPU/CPU.Link"
+        #include	"Command/CommandDeal.Link"
+//_________________LruCmdmain___________________________
+

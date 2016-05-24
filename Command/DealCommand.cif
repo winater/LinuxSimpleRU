@@ -1,0 +1,21 @@
+<component>
+	name 		= "DealCommand"
+	category 	= eModule
+	RefName 	= "DealCommand"
+	LocalRoot 	= "DealCommand"
+
+[properties]
+
+[files]
+"Test.def"
+"Command.def"
+"Command.dat"
+"InitCommand.c"
+"DetectCommand.c"
+"DealCommand.c"
+"DealParameter.c"
+"Help.c"
+"Exit.c"
+[parts]
+
+<endComponent>

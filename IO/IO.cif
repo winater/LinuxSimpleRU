@@ -1,0 +1,20 @@
+<component>
+	name 		= "IOCommand"
+	category 	= ModulePart
+	RefName 	= "IO"
+	LocalRoot 	= "IO"
+
+[properties]
+
+[files]
+"IO.Link"
+"IO.def"
+"IODeclare.def"
+"IO.dat"
+"IO.c"
+"BPort.c"
+"WPort.c"
+"DPort.c"
+[parts]
+
+<endComponent>
