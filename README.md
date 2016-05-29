@@ -1,4 +1,4 @@
-#LinuxSimpleRU<br /><p>Simple Read&amp;Write utility for Linux</p>
+#<p>Simple Read&amp;Write utility for Linux</p>
 <p>  This utility access some computer hardwares, including PCI/PCIE Index/Data, Memory, I/O Port, CPU MSR Register,CPUID.<br />  <br /><span style="font-size: 15px;"><strong>Note:</strong></span><br />  The Project constructs with Visual eBios Tool. In all probability, it is inconvenient to see the project structure now.<br /> <br /><span style="font-size: 15px;"><strong>Qiuck Start:</strong></span><br />  1. Download LinuxRU<br />  2. Typing ./LinuxRu from the file directory.<br />  3. Use it.</p>
 <p><span style="font-size: 15px;"><strong>Build it:</strong></span><br />  1. Clone the project.<br />  2. Using LinuxRU.mak to make.</p>
 <p><span style="font-size: 15px;"><strong>Help:</strong></span><br />  Below is the List of Command (all commands will ignore case).<br />  <span style="font-size: 14px;"><strong>NOTE: [WriteValue] is necessary if you want to command "Write". Otherwise the command means "Read".</strong></span></p>
